@@ -18,9 +18,9 @@ package com.google.common.geometry;
 /**
  * Like an Integer, but mutable :)
  *
- *  Sometimes it is just really convenient to be able to pass a MutableInteger
- * as a parameter to a function, or for synchronization purposes (so that you
- * can guard access to an int value without creating a separate Object just to
+ * Sometimes it is just really convenient to be able to pass a MutableInteger as
+ * a parameter to a function, or for synchronization purposes (so that you can
+ * guard access to an int value without creating a separate Object just to
  * synchronize on).
  *
  * NOT thread-safe
@@ -28,57 +28,57 @@ package com.google.common.geometry;
  */
 public class MutableInteger {
 
-  private int value;
-  private Integer cachedIntegerValue = null;
+	private int value;
+	private Integer cachedIntegerValue = null;
 
-  public MutableInteger(final int i) {
-    this.value = i;
-  }
+	public MutableInteger(final int i) {
+		this.value = i;
+	}
 
-  public int intValue() {
-    return this.value;
-  }
+	public int intValue() {
+		return this.value;
+	}
 
-  public Integer integerValue() {
-    if (this.cachedIntegerValue == null) {
-      this.cachedIntegerValue = intValue();
-    }
-    return this.cachedIntegerValue;
-  }
+	public Integer integerValue() {
+		if (this.cachedIntegerValue == null) {
+			this.cachedIntegerValue = intValue();
+		}
+		return this.cachedIntegerValue;
+	}
 
-  @Override
-  public boolean equals(final Object o) {
-    return o instanceof MutableInteger && ((MutableInteger) o).value == this.value;
-  }
+	@Override
+	public boolean equals(final Object o) {
+		return o instanceof MutableInteger && ((MutableInteger) o).value == this.value;
+	}
 
-  @Override
-  public int hashCode() {
-    return integerValue().hashCode();
-  }
+	@Override
+	public int hashCode() {
+		return integerValue().hashCode();
+	}
 
-  public void setValue(final int value) {
-    this.value = value;
-    this.cachedIntegerValue = null;
-  }
+	public void setValue(final int value) {
+		this.value = value;
+		this.cachedIntegerValue = null;
+	}
 
-  public void increment() {
-    add(1);
-  }
+	public void increment() {
+		add(1);
+	}
 
-  public void add(final int amount) {
-    setValue(this.value + amount);
-  }
+	public void add(final int amount) {
+		setValue(this.value + amount);
+	}
 
-  public void decrement() {
-    subtract(1);
-  }
+	public void decrement() {
+		subtract(1);
+	}
 
-  public void subtract(final int amount) {
-    add(amount * -1);
-  }
+	public void subtract(final int amount) {
+		add(amount * -1);
+	}
 
-  @Override
-  public String toString() {
-    return String.valueOf(this.value);
-  }
+	@Override
+	public String toString() {
+		return String.valueOf(this.value);
+	}
 }
