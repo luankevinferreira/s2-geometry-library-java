@@ -5,8 +5,6 @@ This repository is forked from [s2-geometry-library-java](https://github.com/goo
 
 This fork contains several updates:
 * Support build with Maven.
-* Removed Guava compile dependency make it easier to use on Android.
-* Added proguard configuration.
 * Released to Maven Central.
 
 # How to use
@@ -15,10 +13,10 @@ This fork contains several updates:
   <dependency>
       <groupId>io.sgr</groupId>
       <artifactId>s2-geometry-library-java</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.1</version>
   </dependency>
   ```
 * If you are using **Gradle**, add dependency in `build.gradle`:
   ```
-  compile('io.sgr:s2-geometry-library-java:1.0.0')
+  compile('io.sgr:s2-geometry-library-java:1.0.1')
   ```
