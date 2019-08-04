@@ -49,6 +49,8 @@
     <properties>
         <project.build.targetJdk>1.7</project.build.targetJdk>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <dep.commons-dependencies.version>1.0.0</dep.commons-dependencies.version>
     </properties>
 
     <dependencies>
@@ -67,7 +69,7 @@
             <dependency>
                 <groupId>io.sgr</groupId>
                 <artifactId>common-dependencies</artifactId>
-                <version>1.0.0</version>
+                <version>${dep.commons-dependencies.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
