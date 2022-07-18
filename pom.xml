@@ -50,7 +50,7 @@
         <project.build.targetJdk>1.7</project.build.targetJdk>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <dep.commons-dependencies.version>1.0.0</dep.commons-dependencies.version>
+        <dep.commons-dependencies.version>1.1.1</dep.commons-dependencies.version>
     </properties>
 
     <dependencies>
@@ -67,7 +67,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>io.sgr</groupId>
+                <groupId>io.sgr.maven</groupId>
                 <artifactId>common-dependencies</artifactId>
                 <version>${dep.commons-dependencies.version}</version>
                 <type>pom</type>
