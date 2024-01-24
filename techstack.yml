@@ -1,0 +1,95 @@
+repo_name: luankevinferreira/s2-geometry-library-java
+report_id: 791d0f91dc71ee4e0627c901093f2cea
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-24T00:01:14+00:00'
+requested_by: SgrAlpha
+provider: github
+branch: master
+detected_tools_count: 7
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/luankevinferreira/s2-geometry-library-java
+  detection_source: Repo Metadata
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source_url: https://github.com/luankevinferreira/s2-geometry-library-java/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: SgrAlpha
+  last_updated_on: 2019-07-29 03:54:04.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/luankevinferreira/s2-geometry-library-java
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/luankevinferreira/s2-geometry-library-java/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: SgrAlpha
+  last_updated_on: 2019-07-29 03:54:04.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/luankevinferreira/s2-geometry-library-java/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: SgrAlpha
+  last_updated_on: 2019-07-29 03:54:04.000000000 Z
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/luankevinferreira/s2-geometry-library-java/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: SgrAlpha
+  last_updated_on: 2019-07-29 03:54:04.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/luankevinferreira/s2-geometry-library-java/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: SgrAlpha
+  last_updated_on: 2019-07-29 03:54:04.000000000 Z
