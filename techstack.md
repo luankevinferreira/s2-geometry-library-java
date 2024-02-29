@@ -4,8 +4,8 @@
 luankevinferreira/s2-geometry-library-java is built on the following main stack:
 
 - [Java](https://www.java.com) – Languages
-- [JUnit](http://junit.org/) – Testing Frameworks
 - [guava](https://github.com/google/guava) – Java Tools
+- [JUnit](http://junit.org/) – Testing Frameworks
 - [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
@@ -17,8 +17,8 @@ Full tech stack [here](/techstack.md)
 luankevinferreira/s2-geometry-library-java is built on the following main stack:
 
 - <img width='25' height='25' src='https://img.stackshare.io/service/995/K85ZWV2F.png' alt='Java'/> [Java](https://www.java.com) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/2020/874086.png' alt='JUnit'/> [JUnit](http://junit.org/) – Testing Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/2970/wBjKn0ol.png' alt='guava'/> [guava](https://github.com/google/guava) – Java Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/2020/874086.png' alt='JUnit'/> [JUnit](http://junit.org/) – Testing Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
@@ -30,7 +30,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [luankevinferreira/s2-geometry-library-java](https://github.com/luankevinferreira/s2-geometry-library-java)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|7<br/>Tools used|01/24/24 <br/>Report generated|
+|7<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
